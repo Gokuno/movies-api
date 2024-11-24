@@ -40,19 +40,23 @@ A Spring Boot application that provides a RESTful API for managing movies and re
     "imdbId": "Movie IMDb ID"
   }
 
-  Prerequisites
-Java 17 or later
-Maven
-MongoDB
+- **Prerequisites**
+- Java 17 or later
+- Maven
+- MongoDB
 
-Getting Started
-Clone the repository:
+## Getting Started
+1. **Clone the repository:**
+```bash
+git clone <repository-url>
+cd movie-api
 
-bash
+```bash
 Copy code
 git clone <repository-url>
 cd movie-api
-Configure MongoDB:
+
+2 .**Configure MongoDB:**
 Ensure MongoDB is running locally or update the application.properties file to point to your MongoDB instance.
 
 Example:
@@ -69,21 +73,6 @@ mvn spring-boot:run
 Access the API:
 The API will be available at http://localhost:8080.
 
-Example Data
-Sample Movie Object
-json
-Copy code
-{
-  "id": "64c2f8e43d2e3c6f4d678a0b",
-  "imdbId": "tt1234567",
-  "title": "Example Movie",
-  "releaseDate": "2023-01-01",
-  "trailerLink": "https://youtube.com/example",
-  "poster": "https://imageurl.com/poster.jpg",
-  "genres": ["Action", "Adventure"],
-  "backdrops": ["https://imageurl.com/backdrop1.jpg"],
-  "reviews": []
-}
 Libraries and Dependencies
 Spring Boot Starter Web: For creating RESTful APIs.
 Spring Boot Starter Data MongoDB: For MongoDB integration.
