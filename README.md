@@ -50,11 +50,7 @@ A Spring Boot application that provides a RESTful API for managing movies and re
 ```bash
 git clone <repository-url>
 cd movie-api
-
-```bash
-Copy code
-git clone <repository-url>
-cd movie-api
+```
 
 2 .**Configure MongoDB:**
 Ensure MongoDB is running locally or update the application.properties file to point to your MongoDB instance.
@@ -86,5 +82,4 @@ Dockerization for containerized deployment.
 License
 This project is open-source and available under the MIT License.
 
-Author
 Jorge Allan Paz Garza
